@@ -1,0 +1,18 @@
+.newsbox{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
+  gap: 10px;
+}
+.box{
+  box-shadow: 4px 9px 13px rgb(118, 114, 114);
+}
+.body{
+  /* width: 200vh;
+  height: 200vh; */
+  background: linear-gradient(to bottom,  rgb(12, 50, 91),rgba(14, 42, 71, 1));
+  min-height: 100vh;
+  
+}
+.fkenewsbox{
+  max-width: 800px;
+}
